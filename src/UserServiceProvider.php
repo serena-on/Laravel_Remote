@@ -2,9 +2,9 @@
 
 namespace Serenaon\User;
 
+use Serenaon\User\Commands\UserCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Serenaon\User\Commands\UserCommand;
 
 class UserServiceProvider extends PackageServiceProvider
 {
